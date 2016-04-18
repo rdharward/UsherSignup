@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Usher Sign-up</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+	<link href="css/style.css" rel="stylesheet" media="screen">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+	<script>
+		$(document).ready(function() {
+		$("#datepicker").datepicker();
+		});
+	</script>
+</head>
+<body>
+	<div class="navbar navbar-inverse navbar-fixed-top">
+       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        
+        <a class="navbar-brand text-muted" href="#">Usher Sign-up</a>
+        <div class="collapse navbar-collapse">
+
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">GreyStone Home Page</a></li>
+            <li><a href="#">How to Use</a></li>
+          </ul>
+          
+        </div>
+	</div></div>
+	
+	<div class="container">
+		<div class="row">
+			
+			<div class="col-sm-8">
+				<h2>Instructions for Sign-up</h2>
+				<h3>Click the date input box and select the date you would like to be an usher for</h3>
+			</div>
+			<div class="col-sm-4">
+				<img class="img-responsive img-rounded" src="img/BUsher.gif">
+			</div>
+		</div>
+		
+		<form role="form" method="post" action="https://docs.google.com/forms/d/19OZS_6fjMTEm7oFcpTRlg5yKsYJJkxADxLvPwptqTAo/formResponse">
+			<label for="datepicker"> Date: </label><br>
+			<input type="date" name="entry.2003376944" value class="ss-q-date" dir="auto" id="entry_2003376944" aria-label="Date  "><br>
+			
+			<label for="Name"> Name: </label><br>
+			<input type="text" name="entry.1431268375" value class="ss-q-short valid" id="entry_1431268375" dir="auto" aria-label="Name  " title=""><br>
+
+			<label for="Phone"> Phone: </label><br>
+			<input type="text" name="entry.1806119780" value class="ss-q-short" id="entry_1806119780" dir="auto" aria-label="Phone  " title=""><br>
+			
+			<label for="email"> Email: </label><br>
+			<input type="text" name="entry.1860630245" value="" class="ss-q-short" id="entry_1860630245" dir="auto" aria-label="Email  " title=""><br>
+			
+			<div class="form-group">
+				<label for="Comments">Comments:</label><br>
+				<textarea name="entry.468147955" rows="8" cols="50" class="ss-q-long" id="entry_468147955" dir="auto" aria-label="Comments  ">
+				</textarea>
+			</div>
+			<button type="submit" class="btn btn-default">Submit</button>
+		</form>
+	</div>
+
+</body>
+</html>
